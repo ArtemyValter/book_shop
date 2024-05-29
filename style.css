@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+img{
+    width: 20%
+}
+/*  обнуляющее стили   */
+
+
+body{
+    background: rgb(255, 186, 8);
+
+}
+.body__header {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    /* flex-wrap: wrap; */
+
+    background: rgb(255, 186, 8);
+   
+
+}
+.header__logotype{
+    width: 100px;
+
+
+
+}
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.nav__tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+
+
+}
+.tablet__icon {
+    width: 45px;
+
+}
+.tablet__link:hover{
+    transform: scale(1.1);
+    color: white;
+
+
+}
+.body__buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: -300px;
+    width: 300px;
+    height: 200px;
+    background: white;
+    padding: 5px;
+    transition: all 5s;
+
+
+}
+.body__information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: -300px;
+    width: 300px;
+    height: 200px;
+    background: white;
+    padding: 5px;
+    transition: all 5s;
+
+}
+.naruto__title{
+    background: rgb(19, 135, 62);
+    text-align: center;
+
+
+}
+.naruto__div{
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.main__naruto{
+    background: rgb(255, 186, 8);
+    font-size: 20px;
+    padding: 20px 0px;
+  
+    
+
+}   
+.naruto__text{
+    text-align: center;
+}
+.deathnote__title{
+    background: rgb(19, 135, 62);
+    text-align: center;
+    
+
+}
+.deathnote__div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main__deathnote{
+    background: rgb(177, 15, 46);
+    font-size: 20px;
+    
+
+}
+.body__footer{
+    padding: 20px;
+ 
+    background: rgb(19, 135, 62);
+
+}
+.deathnote__text{
+    text-align: center;
+
+}
+.footer__a{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 93px; */
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.nav__a:hover{
+    transform: scale(1.1);
+    color: white;
+
+
+}
+@media(max-width:650px){
+    .body__header{
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    .naruto__div, .deathnote__div{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .main__naruto, .main__deathnote{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+    }
+    .naruto__img, .deathnote__img{
+        width: 35%;
+
+    }
+}
+@media(max-width:450px){
+
+
+}
+
+
+
+
